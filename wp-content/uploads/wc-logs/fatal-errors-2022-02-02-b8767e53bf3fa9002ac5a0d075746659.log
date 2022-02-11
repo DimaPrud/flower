@@ -1,0 +1,217 @@
+2022-02-02T13:06:49+00:00 CRITICAL Uncaught Error: Call to undefined method Flower_Customizer::get_flower_defaults() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php:62
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Flower_Customizer->default_theme_mod_values('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(587): do_action('init')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin-ajax.php(22): require_once('/var/www/dima/d...')
+#7 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php на строке 62
+
+2022-02-02T13:08:50+00:00 CRITICAL Uncaught Error: Call to undefined method Flower_Customizer::get_flower_defaults() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php:62
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Flower_Customizer->default_theme_mod_values('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(587): do_action('init')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin-ajax.php(22): require_once('/var/www/dima/d...')
+#7 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php на строке 62
+
+2022-02-02T13:10:51+00:00 CRITICAL Uncaught Error: Call to undefined method Flower_Customizer::get_flower_defaults() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php:62
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Flower_Customizer->default_theme_mod_values('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(587): do_action('init')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin-ajax.php(22): require_once('/var/www/dima/d...')
+#7 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php на строке 62
+
+2022-02-02T13:12:27+00:00 CRITICAL Uncaught Error: Call to undefined method Flower_Customizer::get_flower_defaults() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php:62
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Flower_Customizer->default_theme_mod_values('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(587): do_action('init')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin-ajax.php(22): require_once('/var/www/dima/d...')
+#7 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php на строке 62
+
+2022-02-02T13:12:28+00:00 CRITICAL Uncaught Error: Call to undefined method Flower_Customizer::get_flower_defaults() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php:62
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Flower_Customizer->default_theme_mod_values('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(587): do_action('init')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin.php(34): require_once('/var/www/dima/d...')
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/themes.php(10): require_once('/var/www/dima/d...')
+#8 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php на строке 62
+
+2022-02-02T13:12:44+00:00 CRITICAL Uncaught Error: Call to undefined method Flower_Customizer::get_flower_defaults() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php:62
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Flower_Customizer->default_theme_mod_values('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(587): do_action('init')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-blog-header.php(13): require_once('/var/www/dima/d...')
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/index.php(17): require('/var/www/dima/d...')
+#8 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php на строке 62
+
+2022-02-02T13:12:45+00:00 CRITICAL Uncaught Error: Call to undefined method Flower_Customizer::get_flower_defaults() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php:62
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Flower_Customizer->default_theme_mod_values('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(587): do_action('init')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin.php(34): require_once('/var/www/dima/d...')
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/themes.php(10): require_once('/var/www/dima/d...')
+#8 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php на строке 62
+
+2022-02-02T13:13:09+00:00 CRITICAL Uncaught Error: Call to undefined method Flower_Customizer::get_flower_defaults() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php:62
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Flower_Customizer->default_theme_mod_values('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(587): do_action('init')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin.php(34): require_once('/var/www/dima/d...')
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/themes.php(10): require_once('/var/www/dima/d...')
+#8 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php на строке 62
+
+2022-02-02T13:13:18+00:00 CRITICAL Uncaught Error: Call to undefined method Flower_Customizer::get_flower_defaults() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php:62
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Flower_Customizer->default_theme_mod_values('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(587): do_action('init')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin.php(34): require_once('/var/www/dima/d...')
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/index.php(10): require_once('/var/www/dima/d...')
+#8 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php на строке 62
+
+2022-02-02T13:13:30+00:00 CRITICAL Uncaught Error: Call to undefined method Flower_Customizer::get_flower_defaults() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php:62
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Flower_Customizer->default_theme_mod_values('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(587): do_action('init')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-blog-header.php(13): require_once('/var/www/dima/d...')
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/index.php(17): require('/var/www/dima/d...')
+#8 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php на строке 62
+
+2022-02-02T13:13:45+00:00 CRITICAL Uncaught Error: Call to undefined method Flower_Customizer::get_flower_defaults() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php:62
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Flower_Customizer->default_theme_mod_values('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(587): do_action('init')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin.php(34): require_once('/var/www/dima/d...')
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/post.php(12): require_once('/var/www/dima/d...')
+#8 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php на строке 62
+
+2022-02-02T13:13:53+00:00 CRITICAL Uncaught Error: Call to undefined method Flower_Customizer::get_flower_defaults() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php:62
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Flower_Customizer->default_theme_mod_values('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(587): do_action('init')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin.php(34): require_once('/var/www/dima/d...')
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/edit.php(10): require_once('/var/www/dima/d...')
+#8 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php на строке 62
+
+2022-02-02T13:13:58+00:00 CRITICAL Uncaught Error: Call to undefined method Flower_Customizer::get_flower_defaults() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php:62
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Flower_Customizer->default_theme_mod_values('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(587): do_action('init')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin.php(34): require_once('/var/www/dima/d...')
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/edit.php(10): require_once('/var/www/dima/d...')
+#8 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php на строке 62
+
+2022-02-02T13:14:00+00:00 CRITICAL Uncaught Error: Call to undefined method Flower_Customizer::get_flower_defaults() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php:62
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Flower_Customizer->default_theme_mod_values('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(587): do_action('init')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin.php(34): require_once('/var/www/dima/d...')
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/post.php(12): require_once('/var/www/dima/d...')
+#8 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php на строке 62
+
+2022-02-02T13:14:05+00:00 CRITICAL Uncaught Error: Call to undefined method Flower_Customizer::get_flower_defaults() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php:62
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Flower_Customizer->default_theme_mod_values('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(587): do_action('init')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin.php(34): require_once('/var/www/dima/d...')
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/index.php(10): require_once('/var/www/dima/d...')
+#8 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php на строке 62
+
+2022-02-02T13:19:50+00:00 CRITICAL Uncaught Error: Call to undefined method Flower_Customizer::get_flower_defaults() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php:62
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Flower_Customizer->default_theme_mod_values('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(587): do_action('init')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin.php(34): require_once('/var/www/dima/d...')
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/customize.php(13): require_once('/var/www/dima/d...')
+#8 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php на строке 62
+
+2022-02-02T13:25:06+00:00 CRITICAL Uncaught Error: Call to undefined method Flower_Customizer::get_flower_defaults() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php:62
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Flower_Customizer->default_theme_mod_values('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(587): do_action('init')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin.php(34): require_once('/var/www/dima/d...')
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/customize.php(13): require_once('/var/www/dima/d...')
+#8 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-flower-customizer.php на строке 62
+

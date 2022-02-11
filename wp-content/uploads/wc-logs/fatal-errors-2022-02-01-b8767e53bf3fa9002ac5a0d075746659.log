@@ -1,0 +1,183 @@
+2022-02-01T12:35:06+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::get_data() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/RestApi.php:64
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(352): Automattic\WooCommerce\Blocks\RestApi->get_routes_from_namespace('wc/store')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(617): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_data(Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(323): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->enqueue_data(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(85): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_assets(Array)
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback(Array, '', Object(WP_Block))
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/blocks.php(883): WP_Block->render()
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/blocks.php(921): render_block(Array)
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): do_blocks('<style>/*! elem...')
+#8 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(189): WP_Hook->apply_filters('<style>/*! elem...', Array)
+#9 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/post-template.php(253): apply_filters('the_content', '<style>/*! elem...')
+#10 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/oceanwp/partials/page/article.php(20): the_content()
+#11 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/template.php(772): require('/var/www/dima/d...')
+#12 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/template.php(716): load_template('/var/www/dima/d...', false, Array)
+#13 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#14 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/oceanwp/partials/page/layout.php(20): get_template_part('partials/page/a...')
+#15 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/template.php(772): require('/var/www/dima/d...')
+#16 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/template.php(716): load_template('/var/www/dima/d...', false, Array)
+#17 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#18 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/oceanwp/page.php(36): get_template_part('partials/page/l...')
+#19 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/template-loader.php(106): include('/var/www/dima/d...')
+#20 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-blog-header.php(19): require_once('/var/www/dima/d...')
+#21 /var/www/dima/data/www/dimadev.ru/magaz.com/index.php(17): require('/var/www/dima/d...')
+#22 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/RestApi.php на строке 64
+
+2022-02-01T16:42:45+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_adjust_color_brightness() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-deli-customizer.php:162
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Deli_Customizer->add_customizer_css('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/script-loader.php(2105): do_action('wp_enqueue_scri...')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts('')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/general-template.php(3042): do_action('wp_head')
+#8 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/template-canvas.php(17): wp_head()
+#9 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/template-loader.php(106): include('/var/www/dima/d...')
+#10 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-blog-header.php(19): require_once('/var/www/dima/d...')
+#11 /var/www/dima/data/www/dimadev.ru/magaz.com/index.php(17): require('/var/www/dima/d...')
+#12 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-deli-customizer.php на строке 162
+
+2022-02-01T16:45:25+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_adjust_color_brightness() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-deli-customizer.php:162
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Deli_Customizer->add_customizer_css('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/script-loader.php(2105): do_action('wp_enqueue_scri...')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts('')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/general-template.php(3042): do_action('wp_head')
+#8 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/template-canvas.php(17): wp_head()
+#9 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/template-loader.php(106): include('/var/www/dima/d...')
+#10 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-blog-header.php(19): require_once('/var/www/dima/d...')
+#11 /var/www/dima/data/www/dimadev.ru/magaz.com/index.php(17): require('/var/www/dima/d...')
+#12 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-deli-customizer.php на строке 162
+
+2022-02-01T16:45:37+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_adjust_color_brightness() in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-deli-customizer.php:162
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Deli_Customizer->add_customizer_css('')
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/script-loader.php(2105): do_action('wp_enqueue_scri...')
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts('')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/general-template.php(3042): do_action('wp_head')
+#8 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/template-canvas.php(17): wp_head()
+#9 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/template-loader.php(106): include('/var/www/dima/d...')
+#10 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-blog-header.php(19): require_once('/var/www/dima/d...')
+#11 /var/www/dima/data/www/dimadev.ru/magaz.com/index.php(17): require('/var/www/dima/d...')
+#12 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/class-deli-customizer.php на строке 162
+
+2022-02-01T19:07:32+00:00 CRITICAL Cannot redeclare storefront_do_shortcode() (previously declared in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/storefront-functions.php:28) в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/storefront-functions.php на строке 28
+
+2022-02-01T19:07:34+00:00 CRITICAL Cannot redeclare storefront_do_shortcode() (previously declared in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/storefront-functions.php:28) в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/storefront-functions.php на строке 28
+
+2022-02-01T19:07:36+00:00 CRITICAL Cannot redeclare storefront_do_shortcode() (previously declared in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/storefront-functions.php:28) в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/storefront-functions.php на строке 28
+
+2022-02-01T19:07:48+00:00 CRITICAL Cannot redeclare storefront_do_shortcode() (previously declared in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/storefront-functions.php:28) в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/storefront-functions.php на строке 28
+
+2022-02-01T19:07:57+00:00 CRITICAL Cannot redeclare storefront_do_shortcode() (previously declared in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/storefront-functions.php:28) в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/storefront-functions.php на строке 28
+
+2022-02-01T19:08:00+00:00 CRITICAL Cannot redeclare storefront_do_shortcode() (previously declared in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/storefront-functions.php:28) в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/storefront-functions.php на строке 28
+
+2022-02-01T19:08:04+00:00 CRITICAL Cannot redeclare storefront_do_shortcode() (previously declared in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/storefront-functions.php:28) в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/storefront-functions.php на строке 28
+
+2022-02-01T19:15:00+00:00 CRITICAL Cannot redeclare storefront_do_shortcode() (previously declared in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/storefront-functions.php:28) в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/storefront-functions.php на строке 28
+
+2022-02-01T19:15:05+00:00 CRITICAL Cannot redeclare storefront_do_shortcode() (previously declared in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/storefront-functions.php:28) в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/storefront-functions.php на строке 28
+
+2022-02-01T19:17:01+00:00 CRITICAL Cannot redeclare storefront_do_shortcode() (previously declared in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/FlowerBottle/inc/storefront-functions.php:28) в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/storefront-functions.php на строке 28
+
+2022-02-01T19:26:15+00:00 CRITICAL Uncaught Error: Attempt to assign property "default" on null in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php:106
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Storefront_Customizer->edit_default_customizer_settings(Object(WP_Customize_Manager))
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(609): do_action('wp_loaded')
+#8 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#9 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#10 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin.php(34): require_once('/var/www/dima/d...')
+#11 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/customize.php(13): require_once('/var/www/dima/d...')
+#12 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php на строке 106
+
+2022-02-01T19:26:59+00:00 CRITICAL Uncaught Error: Attempt to assign property "default" on null in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php:106
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Storefront_Customizer->edit_default_customizer_settings(Object(WP_Customize_Manager))
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(609): do_action('wp_loaded')
+#8 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#9 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#10 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin.php(34): require_once('/var/www/dima/d...')
+#11 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/customize.php(13): require_once('/var/www/dima/d...')
+#12 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php на строке 106
+
+2022-02-01T19:31:15+00:00 CRITICAL Uncaught Error: Attempt to assign property "default" on null in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php:106
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Storefront_Customizer->edit_default_customizer_settings(Object(WP_Customize_Manager))
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(609): do_action('wp_loaded')
+#8 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#9 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#10 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin.php(34): require_once('/var/www/dima/d...')
+#11 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/customize.php(13): require_once('/var/www/dima/d...')
+#12 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php на строке 106
+
+2022-02-01T19:32:32+00:00 CRITICAL Uncaught Error: Attempt to assign property "default" on null in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php:106
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Storefront_Customizer->edit_default_customizer_settings(Object(WP_Customize_Manager))
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(609): do_action('wp_loaded')
+#8 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#9 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#10 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin.php(34): require_once('/var/www/dima/d...')
+#11 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/customize.php(13): require_once('/var/www/dima/d...')
+#12 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php на строке 106
+
+2022-02-01T19:32:41+00:00 CRITICAL Uncaught Error: Attempt to assign property "default" on null in /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php:106
+Stack trace:
+#0 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): Storefront_Customizer->edit_default_customizer_settings(Object(WP_Customize_Manager))
+#1 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-settings.php(609): do_action('wp_loaded')
+#8 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-config.php(96): require_once('/var/www/dima/d...')
+#9 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-load.php(50): require_once('/var/www/dima/d...')
+#10 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/admin.php(34): require_once('/var/www/dima/d...')
+#11 /var/www/dima/data/www/dimadev.ru/magaz.com/wp-admin/customize.php(13): require_once('/var/www/dima/d...')
+#12 {main}
+  thrown в /var/www/dima/data/www/dimadev.ru/magaz.com/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php на строке 106
+
