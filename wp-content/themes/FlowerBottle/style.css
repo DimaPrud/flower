@@ -891,7 +891,7 @@ body:not(.page-template-template-homepage) .site-main {
 
 
 
-
+/* Отключение ненужного */
 #block-11.widget.widget_block::after {
   display:none;
 }
@@ -917,6 +917,25 @@ body:not(.page-template-template-homepage) .site-main {
   display:none;
 }
 
+.widget_product_search::before{
+  display:none;
+}
+
+.archive::before{
+  display:none;
+}
+
+html::after{
+  display:none;
+}
+
+html::before{
+  display:none;
+}
+
+
+
+
 .woocommerce-breadcrumb {
   width: 1230px;
   height: 100px;
@@ -941,6 +960,7 @@ body:not(.page-template-template-homepage) .site-main {
   background: #FFFFFF;
 }
 
+/* Поисковик */
 .site-info {
   background: #555555;
   position: absolute;
@@ -949,6 +969,8 @@ body:not(.page-template-template-homepage) .site-main {
   padding: 20px 0 20px 150px;
 }
 
+
+/* Меню навигации */
 .deli-primary-navigation {
   width: 1233px;
   position: fixed;
@@ -956,6 +978,7 @@ body:not(.page-template-template-homepage) .site-main {
   border-top: 0;
   margin-left: -53px;
 }
+
 
 #page {
   background: #CCCCCC;
@@ -992,21 +1015,7 @@ body:not(.page-template-template-homepage) .site-main {
   margin-bottom: 20px;
 }
 
-.widget_product_search::before{
-  display:none;
-}
 
-.archive::before{
-  display:none;
-}
-
-html::after{
-  display:none;
-}
-
-html::before{
-  display:none;
-}
 
 .footer-widgets {
   color: #FFFFFF;
@@ -1026,6 +1035,10 @@ html::before{
     margin: 20px 20px 0 0;
   }
 }
+
+
+
+
 
 .custom-logo-link {
   background: #CCCCCC;
@@ -1099,10 +1112,6 @@ body::before {
   display:none;
 }
 
-.woocommerce-product-search::before {
-  position: absolute;
-}
-
 .menu-container {
   background: #FFFFFF;
 }
@@ -1133,4 +1142,13 @@ body::before {
 
 .wc-block-components-price-slider__controls .wc-block-components-price-slider__amount {
   padding-right: 7px;
+}
+
+
+
+
+/* Изображение под главным меню */
+.wp-block-image img {
+  display: none;
+  width: 100%;
 }
