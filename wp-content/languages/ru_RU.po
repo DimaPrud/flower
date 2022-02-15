@@ -2013,7 +2013,7 @@ msgstr "Показывает архивы записей за месяц."
 #: wp-admin/includes/class-wp-posts-list-table.php:998
 #: wp-admin/includes/class-wp-terms-list-table.php:365
 #: wp-admin/includes/class-wp-users-list-table.php:504
-#: wp-admin/update-core.php:570 wp-admin/update-core.php:744
+#: wp-admin/update-core.php:578 wp-admin/update-core.php:752
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:413
 #: wp-admin/includes/class-wp-ms-users-list-table.php:245
 msgid "Select %s"
@@ -2597,16 +2597,16 @@ msgstr "(Ссылка на главную, откроется в новой вк
 msgid "Block \"%1$s\" is declaring %2$s support in %3$s file under %4$s. %2$s support is now declared under %5$s."
 msgstr "Блок \"%1$s\" заявляет поддержку %2$s в файле %3$s с %4$s. Поддержка %2$s сейчас объявлена с %5$s."
 
-#: wp-includes/block-template.php:229
+#: wp-includes/block-template.php:233
 msgid "No matching template found"
 msgstr "Соответствующие шаблоны не найдены."
 
-#: wp-includes/block-template.php:97
+#: wp-includes/block-template.php:101
 msgid "No matching template found."
 msgstr "Соответствующие шаблоны не найдены."
 
 #. translators: %s: Template title
-#: wp-includes/block-template.php:81
+#: wp-includes/block-template.php:85
 msgid "Empty template: %s"
 msgstr "Пустой шаблон: %s"
 
@@ -3561,8 +3561,8 @@ msgstr "Эта тема не будет работать с вашей верс�
 #: wp-admin/themes.php:777 wp-admin/themes.php:808 wp-admin/themes.php:841
 #: wp-admin/themes.php:864 wp-admin/themes.php:989 wp-admin/themes.php:1012
 #: wp-admin/themes.php:1056 wp-admin/themes.php:1087
-#: wp-admin/update-core.php:100 wp-admin/update-core.php:533
-#: wp-admin/update-core.php:699 wp-admin/update-core.php:723
+#: wp-admin/update-core.php:100 wp-admin/update-core.php:541
+#: wp-admin/update-core.php:707 wp-admin/update-core.php:731
 #: wp-admin/upgrade.php:86
 msgid "<a href=\"%s\">Learn more about updating PHP</a>."
 msgstr "<a href=\"%s\">Узнайте больше про обновление PHP</a>."
@@ -3585,7 +3585,7 @@ msgstr "<a href=\"%s\">Узнайте больше про обновление P
 #: wp-admin/themes.php:496 wp-admin/themes.php:771 wp-admin/themes.php:793
 #: wp-admin/themes.php:835 wp-admin/themes.php:853 wp-admin/themes.php:983
 #: wp-admin/themes.php:1001 wp-admin/themes.php:1050 wp-admin/themes.php:1072
-#: wp-admin/update-core.php:693 wp-admin/update-core.php:714
+#: wp-admin/update-core.php:701 wp-admin/update-core.php:722
 msgid "<a href=\"%s\">Please update WordPress</a>."
 msgstr "<a href=\"%s\">Пожалуйста, обновите WordPress</a>."
 
@@ -3599,7 +3599,7 @@ msgstr "<a href=\"%s\">Пожалуйста, обновите WordPress</a>."
 #: wp-admin/theme-install.php:488 wp-admin/themes.php:412
 #: wp-admin/themes.php:472 wp-admin/themes.php:763 wp-admin/themes.php:827
 #: wp-admin/themes.php:975 wp-admin/themes.php:1042
-#: wp-admin/update-core.php:680
+#: wp-admin/update-core.php:688
 msgid "<a href=\"%1$s\">Please update WordPress</a>, and then <a href=\"%2$s\">learn more about updating PHP</a>."
 msgstr "<a href=\"%1$s\">Пожалуйста, обновите WordPress</a>, затем <a href=\"%2$s\">узнайте больше об обновлении PHP</a>."
 
@@ -5446,7 +5446,7 @@ msgstr "Ошибка с типом %1$s возникла на строке %2$s 
 #: wp-includes/class-wp-theme.php:346
 #: wp-admin/includes/class-wp-themes-list-table.php:286
 #: wp-admin/theme-editor.php:44 wp-admin/theme-editor.php:371
-#: wp-admin/update-core.php:643
+#: wp-admin/update-core.php:651
 msgid "https://developer.wordpress.org/themes/advanced-topics/child-themes/"
 msgstr "https://ru.wordpress.org/support/article/child-themes/"
 
@@ -13472,7 +13472,7 @@ msgstr "H:i"
 #: wp-admin/includes/class-wp-privacy-policy-content.php:382
 #: wp-admin/includes/dashboard.php:656 wp-admin/includes/media.php:1703
 #: wp-admin/includes/schema.php:426 wp-admin/options-general.php:293
-#: wp-admin/options-general.php:319 wp-admin/update-core.php:1049
+#: wp-admin/options-general.php:319 wp-admin/update-core.php:1057
 msgid "F j, Y"
 msgstr "d.m.Y"
 
@@ -17647,7 +17647,7 @@ msgstr "Мои сайты"
 #: wp-includes/customize/class-wp-customize-themes-panel.php:77
 #: wp-includes/taxonomy.php:193 wp-includes/js/dist/core-data.js:2016
 #: wp-admin/includes/ms.php:1077 wp-admin/themes.php:249
-#: wp-admin/update-core.php:619 wp-admin/update-core.php:632
+#: wp-admin/update-core.php:627 wp-admin/update-core.php:640
 #: wp-admin/network/menu.php:78 wp-admin/network/themes.php:338
 msgid "Themes"
 msgstr "Темы"
@@ -18222,8 +18222,8 @@ msgstr "Отмена"
 
 #: wp-includes/admin-bar.php:585 wp-includes/js/dist/core-data.js:2025
 #: wp-includes/js/dist/edit-post.js:6080 wp-includes/js/dist/edit-site.js:1941
-#: wp-admin/plugins.php:602 wp-admin/update-core.php:450
-#: wp-admin/update-core.php:469 wp-admin/network/menu.php:103
+#: wp-admin/plugins.php:602 wp-admin/update-core.php:458
+#: wp-admin/update-core.php:477 wp-admin/network/menu.php:103
 #: wp-admin/network/settings.php:487
 msgid "Plugins"
 msgstr "Плагины"

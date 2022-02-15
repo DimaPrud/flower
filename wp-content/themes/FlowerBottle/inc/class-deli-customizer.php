@@ -175,7 +175,7 @@ class Deli_Customizer {
 			}
 
 			.header-widget-region a:not(.button) {
-				color: ' . $footer_link_color . ';
+				color: #FFFFFF;
 			}
 
 			.single-product div.product .summary .price {
