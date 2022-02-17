@@ -1222,3 +1222,32 @@ span::before {
 .wp-block-image img {
   width: 100%;
 }
+
+
+
+/**/
+.site-main ul.products.columns-4 li.product {
+  height: 330px;
+}
+
+.site-main ul.products li.product .button {
+  right: 0;
+  bottom: 0;
+  position: static;
+}
+
+.compare button{
+  left: 50px;
+  bottom: 0;
+  position: static;
+}
+
+ul.products li.product img, ul.products .wc-block-grid__product img, .wc-block-grid__products li.product img, .wc-block-grid__products .wc-block-grid__product img {
+  width: 171px;
+  height: 171px;
+  object-fit:cover;
+}
+
+.woocommerce-message, .woocommerce-info, .woocommerce-error, .woocommerce-noreviews, p.no-comments {
+  background-color: #37e519;
+}
