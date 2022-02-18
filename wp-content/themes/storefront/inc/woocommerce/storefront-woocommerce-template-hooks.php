@@ -80,10 +80,11 @@ add_action( 'storefront_after_footer', 'storefront_sticky_single_add_to_cart', 9
  *
  * @see storefront_product_search()
  * @see storefront_header_cart()
+ * @see storefront_header_nav()
  */
 add_action( 'storefront_header', 'storefront_product_search', 40 );
 add_action( 'storefront_header', 'storefront_header_cart', 60 );
-
+add_action( 'storefront_header', 'storefront_header_nav', 40 );
 /**
  * Cart fragment
  *

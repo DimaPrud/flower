@@ -885,7 +885,7 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 							 *
 							 * @param int $locations Number of menu locations to list. Default 3.
 							 */
-							$locations_listed_per_menu = absint( apply_filters( 'wp_nav_locations_listed_per_menu', 3 ) );
+							$locations_listed_per_menu = absint( apply_filters( 'wp_nav_locations_listed_per_menu', 4 ) );
 
 							$assigned_locations = array_slice( $locations_assigned_to_this_menu, 0, $locations_listed_per_menu );
 

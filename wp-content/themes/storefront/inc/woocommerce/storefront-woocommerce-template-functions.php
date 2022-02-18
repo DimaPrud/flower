@@ -114,7 +114,7 @@ if ( ! function_exists( 'storefront_product_search' ) ) {
 	}
 }
 
-if ( ! function_exists( 'storefront_header_nav' ) ) {
+if ( ! function_exists( 'storefront_footer_nav' ) ) {
     /**
      * Display Product Search
      *
@@ -122,13 +122,23 @@ if ( ! function_exists( 'storefront_header_nav' ) ) {
      * @uses  storefront_is_woocommerce_activated() check if WooCommerce is activated
      * @return void
      */
-    function storefront_header_nav() {
-        ?>
-        <ul class="menu">
-            <?php the_widget( 'WC_Widget_Layered_Nav', 'title=' ); ?>
-        </ul>
-        <?php
+    function storefront_footer_nav() {
 
+        ?>
+        <div class="footer-nav">
+            <?php /* the_widget('WC_Widget_Footer_Nav', 'title='); */ ?>
+            <ul class="footer_ul">
+                <li class="str"><a class="footer_a" href="http://flower-bottle.ru/shop/">каталог</a></li>
+                <li class="str"><a class="footer_a" href="http://flower-bottle.ru/%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d1%8b/">отзывы</a></li>
+                <li class="str"><a class="footer_a" href="http://flower-bottle.ru/privacy-policy/">о нас</a></li>
+                <li class="str"><a class="footer_a" href="http://flower-bottle.ru/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d1%8b/">контакты</a></li>
+                <li class="str"><a class="footer_a" href="http://flower-bottle.ru/%d1%83%d1%85%d0%be%d0%b4-%d0%b7%d0%b0-%d1%84%d0%bb%d0%be%d1%80%d0%b0%d1%80%d0%b8%d1%83%d0%bc%d0%be%d0%bc/">уход за флорариумом</a></li>
+                <li class="str"><a class="footer_a" href="http://flower-bottle.ru/refund_returns/">политика возврата</a></li>
+                <li class="str"><a class="footer_a" href="http://flower-bottle.ru/%d0%bf%d0%be%d0%bc%d0%be%d1%89%d1%8c/">помощь</a></li>
+            </ul>
+        </div>
+
+<?php
     }
 }
 
@@ -690,10 +700,10 @@ if ( ! function_exists( 'storefront_handheld_footer_bar' ) ) {
 				'priority' => 30,
 				'callback' => 'storefront_handheld_footer_bar_cart_link',
 			),
-            'nav'       => array(
-                'priority' => 40,
-                'callback' => 'storefront_handheld_footer_bar_nav',
-            ),
+            //'nav'       => array(
+            //    'priority' => 40,
+            //    'callback' => 'storefront_handheld_footer_bar_nav',
+            //),
 		);
 
 		if ( did_action( 'woocommerce_blocks_enqueue_cart_block_scripts_after' ) || did_action( 'woocommerce_blocks_enqueue_checkout_block_scripts_after' ) ) {
@@ -739,17 +749,17 @@ if ( ! function_exists( 'storefront_handheld_footer_bar_search' ) ) {
 	}
 }
 
-if ( ! function_exists( 'storefront_handheld_footer_bar_nav' ) ) {
-    /**
-     * The search callback function for the handheld footer bar
-     *
-     * @since 2.0.0
-     */
-    function storefront_handheld_footer_bar_nav() {
-        echo '<a href="">' . esc_attr__( 'Nav', 'storefront' ) . '</a>';
-        storefront_header_nav();
-    }
-}
+//if ( ! function_exists( 'storefront_handheld_footer_bar_nav' ) ) {
+//    /**
+//     * The nav callback function for the handheld footer bar
+//     *
+//     * @since 2.0.0
+//     */
+//    function storefront_handheld_footer_bar_nav() {
+//        echo '<a href="">' . esc_attr__( 'Nav', 'storefront' ) . '</a>';
+//        storefront_footer_nav();
+//    }
+//}
 
 if ( ! function_exists( 'storefront_handheld_footer_bar_cart_link' ) ) {
 	/**
@@ -901,7 +911,7 @@ if ( ! function_exists( 'storefront_woocommerce_brands_homepage_section' ) ) {
 			'storefront_woocommerce_brands_args',
 			array(
 				'number'     => 6,
-				'columns'    => 4,
+				'columns'    => 3,
 				'orderby'    => 'name',
 				'show_empty' => false,
 				'title'      => __( 'Shop by Brand', 'storefront' ),

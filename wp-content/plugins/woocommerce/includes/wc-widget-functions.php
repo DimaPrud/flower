@@ -36,6 +36,7 @@ function wc_register_widgets() {
 	register_widget( 'WC_Widget_Cart' );
 	register_widget( 'WC_Widget_Layered_Nav_Filters' );
 	register_widget( 'WC_Widget_Layered_Nav' );
+    //register_widget( 'WC_Widget_Footer_Nav' );
 	register_widget( 'WC_Widget_Price_Filter' );
 	register_widget( 'WC_Widget_Product_Categories' );
 	register_widget( 'WC_Widget_Product_Search' );

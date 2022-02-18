@@ -119,6 +119,24 @@ function wc_prevent_adjacent_posts_rel_link_wp_head() {
 add_action( 'template_redirect', 'wc_prevent_adjacent_posts_rel_link_wp_head' );
 
 /**
+ * Listing pages in footer
+ */
+function wc_footer_listing_pages() {
+    ?>
+    <ul class="footer_ul">
+        <li><a class="footer_a" href="http://flower-bottle.ru/shop/">каталог</a></li>
+        <li><a class="footer_a" href="http://flower-bottle.ru/%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d1%8b/">отзывы</a></li>
+        <li><a class="footer_a" href="http://flower-bottle.ru/privacy-policy/">о нас</a></li>
+        <li><a class="footer_a" href="http://flower-bottle.ru/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d1%8b/">контакты</a></li>
+        <li><a class="footer_a" href="http://flower-bottle.ru/%d1%83%d1%85%d0%be%d0%b4-%d0%b7%d0%b0-%d1%84%d0%bb%d0%be%d1%80%d0%b0%d1%80%d0%b8%d1%83%d0%bc%d0%be%d0%bc/">уход за флорариумом</a></li>
+        <li><a class="footer_a" href="http://flower-bottle.ru/refund_returns/">политика возврата</a></li>
+        <li><a class="footer_a" href="http://flower-bottle.ru/%d0%bf%d0%be%d0%bc%d0%be%d1%89%d1%8c/">помощь</a></li>
+    </ul>
+    <?php
+}
+
+
+/**
  * Show the gallery if JS is disabled.
  *
  * @since 3.0.6
