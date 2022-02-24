@@ -577,7 +577,7 @@ body:not(.page-template-template-homepage) .site-main {
     box-shadow: 0 0.327em 0 rgba(0, 0, 0, 0.075);
     position: relative;
     clear: both;
-    background: #b64902; }
+    background: #ce1010; }
     .deli-primary-navigation .smm-mega-menu {
       margin-left: 0;
       margin-right: 0;
@@ -1068,7 +1068,7 @@ html::before{
   padding: 10px 10px 0 10px;
   height: 40px;
   border-right: 1px solid #CCCCCC;
-  background: #b93100;
+  background: #ce1010;
   position: relative;
   float: left;
 }
@@ -1244,7 +1244,7 @@ ul.products li.product img, ul.products .wc-block-grid__product img, .wc-block-g
 }
 
 .woocommerce-message, .woocommerce-info, .woocommerce-error, .woocommerce-noreviews, p.no-comments {
-  background-color: #37e519;
+  background-color: #43af11;
 }
 
 .header-widget-region .widget {
@@ -1255,7 +1255,7 @@ ul.products li.product img, ul.products .wc-block-grid__product img, .wc-block-g
 
 .clear-all {
   padding: 5px;
-  background-color: #37e519;
+  background-color: #43af11;
   border-radius: 3px;
 
 }
@@ -1320,8 +1320,8 @@ ul.products li.product img, ul.products .wc-block-grid__product img, .wc-block-g
   margin: 15px;
   top: 0;
   right: 15px;
-  background-color: #b93100;
-  border-color: #b93100;
+  background-color: #ce1010;
+  border-color: #ce1010;
   content: "☰";
   float: left;
   display: block;
@@ -1370,7 +1370,7 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
   position: fixed;
   top: 63.59px;
   right: 0;
-  background-color: #b93100;
+  background-color: #ce1010;
   width: 200px;
   height: 100%;
 }
@@ -1379,7 +1379,7 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
   position: fixed;
   top: 63.59px;
   right: 0;
-  background-color: #b93100;
+  background-color: #ce1010;
   width: 250px;
   height: 420px;
   border: 1px solid rgba(255,255,255,.2);

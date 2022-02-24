@@ -15,6 +15,8 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+    <link rel="icon" href="https://flower-bottle.ru/favicon.png" type="image/x-icon">
+
 <?php wp_head(); ?>
 </head>
 
